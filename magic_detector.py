@@ -12,7 +12,16 @@ def read_magic_bytes(file_path, num_bytes=READ_BYTES):
     with open(file_path, "rb") as f:
         data = f.read(num_bytes)
         return data.hex().upper()
+def print_banner():
+    ascii_banner = r"""
+   ____    ____   ___  ___ 
+  / ___|  / ___|  |  \/  |
+ | |  _   \___ \  | |\/| |
+ | |_| |   ___) | | |  | |
+  \____|  |____/  |_|  |_|
 
+"""
+    print(ascii_banner)
 #load the magic number from the db to the memory for comparition
 def load_signatures():
     with open(SIGNATURE_DB, "r") as f:
@@ -54,7 +63,7 @@ def match_signature(file_hex, signatures):
 
 
 
-# ---------------- PHASE 5 ----------------
+
 def analyze_extension(file_path, detected_sig):
     ext = os.path.splitext(file_path)[1].lower().lstrip(".")
 
@@ -73,7 +82,7 @@ def analyze_extension(file_path, detected_sig):
 
 
 
-# ---------------- PHASE 6 ----------------
+
 def calculate_sha256(file_path):
     sha256 = hashlib.sha256()
     with open(file_path, "rb") as f:
@@ -102,7 +111,6 @@ def log_forensic_event(log_entry):
         json.dump(logs, f, indent=4)
 
 
-# ---------------- PHASE 7 ----------------
 def display_report(report):
     print("\n========== FILE ANALYSIS REPORT ==========")
     for key, value in report.items():
@@ -154,8 +162,9 @@ def detect_file(file_path):
 
 
 
-# ---------------- MAIN (CLI) ----------------
 if __name__ == "__main__":
+    print_banner()
     print("=== Magic Number File Type Identifier ===")
     path = input("Enter file path to scan: ").strip()
     detect_file(path)
+
