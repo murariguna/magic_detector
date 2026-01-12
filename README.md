@@ -28,23 +28,6 @@ This project implements a **binary-level file type identification tool** that de
 
 ---
 
-## ⚙️ How It Works
-
-##File Input
--↓
--Binary Header Reader
--↓
--Magic Number Extraction
--↓
--Signature Database Matching
--↓
--Extension Comparison
--↓
--Risk Classification
--↓
--Forensic Report Generation
----
-
 ## 🔍 Key Features
 
 ✔ Reads files in **binary mode**  
@@ -73,41 +56,6 @@ This project implements a **binary-level file type identification tool** that de
 > ⚠️ Risk is assigned **conservatively** to avoid false trust.
 
 ---
-
-## 📌 Important Note on ZIP-Based Formats
-
-Modern document formats such as:
-
-- `.docx`
-- `.pptx`
-- `.xlsx`
-- OpenDocument formats
-
-are **ZIP-based containers** and share the same magic number:
-
-50 4B 03 04
-
-
-At the current phase, the tool **identifies only the container**, not the internal document type.  
-Without container-aware inspection, such files are **intentionally classified as HIGH risk**.
-
-> This behavior is **by design** and aligned with security best practices.
-
----
-
-## 🧪 Example Output
-
-========== FILE ANALYSIS REPORT ==========
-File Name : invoice.pdf
-File Extension : .pdf
-Detected Type : Windows Executable (EXE)
-Magic Number : 4D 5A
-SHA-256 : a9c1e5...
-Risk Level : CRITICAL
-Timestamp : 2026-01-12 15:12:23
-
----
-
 ## 🧠 Scope Clarification
 
 ### ✅ This Project IS
@@ -151,14 +99,7 @@ Timestamp : 2026-01-12 15:12:23
 - Email gateway filtering
 - Malware triage
 - Digital forensic analysis
-- Academic & security research
-
----
-
-## 📜 License
-
-This project is intended for **educational and research purposes**.
-
+- Academic & security research0
 ---
 
 <div align="center">
