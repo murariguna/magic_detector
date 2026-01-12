@@ -30,19 +30,19 @@ This project implements a **binary-level file type identification tool** that de
 
 ## ⚙️ How It Works
 
-File Input
-↓
-Binary Header Reader
-↓
-Magic Number Extraction
-↓
-Signature Database Matching
-↓
-Extension Comparison
-↓
-Risk Classification
-↓
-Forensic Report Generation
+##File Input
+-↓
+-Binary Header Reader
+-↓
+-Magic Number Extraction
+-↓
+-Signature Database Matching
+-↓
+-Extension Comparison
+-↓
+-Risk Classification
+-↓
+-Forensic Report Generation
 ---
 
 ## 🔍 Key Features
