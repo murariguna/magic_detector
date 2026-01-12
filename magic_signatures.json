@@ -1,0 +1,1058 @@
+{
+  "dataset_name": "Magic Number File Signature Database",
+  "source": [
+    "Public File Signature Tables",
+    "Digital Forensics References"
+  ],
+  "created_for": "File Type Identifier using Magic Numbers",
+  "signatures": [
+    {
+      "description": "MPEG-4 v1",
+      "extensions": ["mp4"],
+      "file_class": "Multimedia",
+      "magic_hex": "00 00 00 14 66 74 79 70 69 73 6F 6D",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "Windows Disk Image",
+      "extensions": ["tbi"],
+      "file_class": "Windows",
+      "magic_hex": "00 00 00 00 14 00 00 00",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "Bitcoin Core wallet.dat file",
+      "extensions": ["dat"],
+      "file_class": "Finance",
+      "magic_hex": "00 00 00 00 62 31 05 00 09 00 00 00 00 20 00 00 00 09 00 00 00 00 00 00",
+      "offset": 8,
+      "trailer_hex": null
+    },
+    {
+      "description": "MPEG-4 video",
+      "extensions": ["3gp5", "m4v", "mp4"],
+      "file_class": "Multimedia",
+      "magic_hex": "00 00 00 18 66 74 79 70",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "Apple audio and video",
+      "extensions": ["m4a"],
+      "file_class": "Multimedia",
+      "magic_hex": "00 00 00 20 66 74 79 70 4D 34 41",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "Lotus 1-2-3 v1",
+      "extensions": ["wk1"],
+      "file_class": "Spreadsheet",
+      "magic_hex": "00 00 02 00 06 04 06 00",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "Netscape Navigator v4 database",
+      "extensions": ["db"],
+      "file_class": "Network",
+      "magic_hex": "00 06 15 61 00 00 00 02 00 00 04 D2 00 00 10 00",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "Mbox table of contents file",
+      "extensions": [],
+      "file_class": "E-mail",
+      "magic_hex": "00 0D BB A0",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "FLIC animation",
+      "extensions": ["fli"],
+      "file_class": "Miscellaneous",
+      "magic_hex": "00 11",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "Digital Speech Standard file",
+      "extensions": ["dss"],
+      "file_class": "Multimedia",
+      "magic_hex": "02 64 73 73",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "Nokia PC Suite Content Copier file",
+      "extensions": ["nfc"],
+      "file_class": "Multimedia",
+      "magic_hex": "03 00 00 00",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "dBASE IV or dBFast configuration file",
+      "extensions": ["db"],
+      "file_class": "Database",
+      "magic_hex": "08",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "ZSOFT Paintbrush file",
+      "extensions": ["pcx"],
+      "file_class": "Presentation",
+      "magic_hex": "0A 03 01 01",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "PowerPoint presentation subheader",
+      "extensions": ["ppt"],
+      "file_class": "Presentation",
+      "magic_hex": "0F 00 E8 03",
+      "offset": 512,
+      "trailer_hex": null
+    },
+    {
+      "description": "Lotus Notes database",
+      "extensions": ["nsf"],
+      "file_class": "Spreadsheet",
+      "magic_hex": "1A 00 00 04 00 00",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "LH archive (old version)",
+      "extensions": ["arc"],
+      "file_class": "Compressed archive",
+      "magic_hex": "1A 03",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "Compressed archive file",
+      "extensions": ["pak"],
+      "file_class": "Compressed archive",
+      "magic_hex": "1A 0B",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "AIN compressed archive",
+      "extensions": ["ain"],
+      "file_class": "Compressed archive",
+      "magic_hex": "21 12",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "Microsoft Outlook Offline Storage Folder",
+      "extensions": ["ost"],
+      "file_class": "Email",
+      "magic_hex": "21 42 44 4E",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "VMware 4 virtual disk description",
+      "extensions": ["vmdk"],
+      "file_class": "Miscellaneous",
+      "magic_hex": "23 20 44 69 73 6B 20 44",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "MS Developer Studio project file",
+      "extensions": ["dsp"],
+      "file_class": "Programming",
+      "magic_hex": "23 20 4D 69 63 72 6F 73",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "Skype audio compression",
+      "extensions": ["sil"],
+      "file_class": "Multimedia",
+      "magic_hex": "23 21 53 49 4C 4B 0A",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "Encapsulated PostScript file",
+      "extensions": ["eps"],
+      "file_class": "Word processing suite",
+      "magic_hex": "25 21 50 53 2D 41 64 6F",
+      "offset": 0,
+      "trailer_hex": null
+    },
+    {
+      "description": "PostScript file",
+      "extensions": ["ps"],
+      "file_class": "Word processing suite",
+      "magic_hex": "25 21 50 53 2D 41 64 6F 62 65 2D",
+      "offset": 0,
+      "trailer_hex": null
+    },
+   {
+    "description": "Palmpilot resource file",
+    "extensions": ["prc"],
+    "file_class": "Mobile",
+    "magic_hex": "42 4F 4F 4B 4D 4F 42 49",
+    "offset": 0,
+    "trailer_hex": null
+    },
+   {
+    "description": "bzip2 compressed archive",
+    "extensions": ["bz2", "tar", "tbz2", "tb2"],
+    "file_class": "Compressed archive",
+    "magic_hex": "42 5A 68",
+    "offset": 0,
+    "trailer_hex": null
+   },
+   {
+    "description": "Blink compressed archive",
+    "extensions": ["bli"],
+    "file_class": "Compressed archive",
+    "magic_hex": "42 6C 69 6E 6B",
+    "offset": 0,
+    "trailer_hex": null
+   },
+   {
+    "description": "WordPerfect dictionary",
+    "extensions": ["cbd"],
+    "file_class": "Word processing suite",
+    "magic_hex": "43 42 46 49 4C 45",
+    "offset": 0,
+    "trailer_hex": null
+   },
+   {
+    "description": "ISO-9660 CD disc image",
+    "extensions": ["iso"],
+    "file_class": "Compressed archive",
+    "magic_hex": "43 44 30 30 31",
+    "offset": 0,
+    "trailer_hex": null
+   },
+   {
+    "description": "Compressed ISO CD image",
+    "extensions": ["cso"],
+    "file_class": "Compressed archive",
+    "magic_hex": "43 49 53 4F",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "VMware 3 virtual disk",
+    "extensions": ["vmdk"],
+    "file_class": "Miscellaneous",
+    "magic_hex": "43 4F 57 44",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Palm Zire photo database",
+    "extensions": ["db"],
+    "file_class": "Mobile",
+    "magic_hex": "44 42 46 48",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "DVD info file",
+    "extensions": ["ifo"],
+    "file_class": "Multimedia",
+    "magic_hex": "44 56 44",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "MP3 audio file",
+    "extensions": ["mp3"],
+    "file_class": "Multimedia",
+    "magic_hex": "49 44 33",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "JPEG2000 image file",
+    "extensions": ["jp2"],
+    "file_class": "Picture",
+    "magic_hex": "00 00 00 0C 6A 50 20 20",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Windows icon or printer spool file",
+    "extensions": ["ico", "spl"],
+    "file_class": "Windows",
+    "magic_hex": "00 00 01 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "DVD video file",
+    "extensions": ["mpg", "vob"],
+    "file_class": "Multimedia",
+    "magic_hex": "00 00 01 BA",
+    "offset": 0,
+    "trailer_hex": "00 00 01 B9"
+  },
+  {
+    "description": "QuattroPro spreadsheet",
+    "extensions": ["wb2"],
+    "file_class": "Spreadsheet",
+    "magic_hex": "00 00 02 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "PowerPoint presentation subheader",
+    "extensions": ["ppt"],
+    "file_class": "Presentation",
+    "magic_hex": "00 6E 1E F0",
+    "offset": 512,
+    "trailer_hex": null
+  },
+  {
+    "description": "Firebird / Interbase database file",
+    "extensions": ["fdb", "gdb"],
+    "file_class": "Database",
+    "magic_hex": "01 00 39 30",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Matroska video file",
+    "extensions": ["mkv"],
+    "file_class": "Multimedia",
+    "magic_hex": "1A 45 DF A3 93 42 82 88",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "PDF file",
+    "extensions": ["pdf", "fdf"],
+    "file_class": "Word processing suite",
+    "magic_hex": "25 50 44 46",
+    "offset": 0,
+    "trailer_hex": "25 25 45 4F 46"
+  },
+  {
+    "description": "7-Zip compressed archive",
+    "extensions": ["7z"],
+    "file_class": "Compressed archive",
+    "magic_hex": "37 7A BC AF 27 1C",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "GIF image file",
+    "extensions": ["gif"],
+    "file_class": "Picture",
+    "magic_hex": "47 49 46 38",
+    "offset": 0,
+    "trailer_hex": "00 3B"
+  },
+  {
+    "description": "Shockwave Flash file",
+    "extensions": ["swf"],
+    "file_class": "Multimedia",
+    "magic_hex": "43 57 53",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Windows shortcut file",
+    "extensions": ["lnk"],
+    "file_class": "Windows",
+    "magic_hex": "4C 00 00 00 01 14 02 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "MATLAB v5 workspace",
+    "extensions": ["mat"],
+    "file_class": "Programming",
+    "magic_hex": "4D 41 54 4C 41 42 20 35 2E 30 20 4D 41 54 2D 66 69 6C 65",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "OneNote package",
+    "extensions": ["onepkg"],
+    "file_class": "Windows",
+    "magic_hex": "4D 53 43 46",
+    "offset": 0,
+    "trailer_hex": null
+  },
+    {
+    "description": "MS Access Snapshot Viewer file",
+    "extensions": ["snp"],
+    "file_class": "Database",
+    "magic_hex": "4D 53 43 46",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Microsoft Windows Imaging Format",
+    "extensions": ["wim"],
+    "file_class": "Picture",
+    "magic_hex": "4D 53 57 49 4D",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Milestones project management file",
+    "extensions": ["mls"],
+    "file_class": "Miscellaneous",
+    "magic_hex": "4D 56 32 31 34",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "OLE object library (Windows executable)",
+    "extensions": ["olb"],
+    "file_class": "Windows",
+    "magic_hex": "4D 5A",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Windows screen saver (executable)",
+    "extensions": ["scr"],
+    "file_class": "Windows",
+    "magic_hex": "4D 5A",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "DirectShow filter (executable)",
+    "extensions": ["ax"],
+    "file_class": "Miscellaneous",
+    "magic_hex": "4D 5A 90 00 03 00 00 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Windows Media Player playlist",
+    "extensions": ["wpl"],
+    "file_class": "Multimedia",
+    "magic_hex": "4D 69 63 72 6F 73 6F 66 74 20 57 69 6E 64 6F 77 73 20 4D 65 64 69 61 20 50 6C 61 79 65 72 20 2D 2D 20",
+    "offset": 84,
+    "trailer_hex": null
+  },
+  {
+    "description": "StarOffice spreadsheet",
+    "extensions": ["sxc"],
+    "file_class": "Spreadsheet",
+    "magic_hex": "50 4B 03 04",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Mozilla Browser Archive",
+    "extensions": ["xpi"],
+    "file_class": "Network",
+    "magic_hex": "50 4B 03 04",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Dreamcast Sound Format",
+    "extensions": ["dsf"],
+    "file_class": "Multimedia",
+    "magic_hex": "50 53 46 12",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Qcow disk image",
+    "extensions": ["qemu"],
+    "file_class": "Miscellaneous",
+    "magic_hex": "51 46 49",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Windows animated cursor",
+    "extensions": ["ani"],
+    "file_class": "Windows",
+    "magic_hex": "52 49 46 46",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "CorelDraw document",
+    "extensions": ["cdr"],
+    "file_class": "Presentation",
+    "magic_hex": "52 49 46 46",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "StuffIt archive",
+    "extensions": ["sit"],
+    "file_class": "Compressed archive",
+    "magic_hex": "53 49 54 21 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Visual Basic user-defined control file",
+    "extensions": ["ctl"],
+    "file_class": "Programming",
+    "magic_hex": "56 45 52 53 49 4F 4E 20",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "SPSS template",
+    "extensions": ["sct"],
+    "file_class": "Statistics",
+    "magic_hex": "57 04 00 00 53 50 53 53 20 74 65 6D 70 6C 61 74",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "RIFF WebP image",
+    "extensions": ["webp"],
+    "file_class": "Multimedia",
+    "magic_hex": "57 45 42 50",
+    "offset": 8,
+    "trailer_hex": null
+  },
+  {
+    "description": "ZOO compressed archive",
+    "extensions": ["zoo"],
+    "file_class": "Compressed archive",
+    "magic_hex": "5A 4F 4F 20",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Windows printer spool shadow file",
+    "extensions": ["shd"],
+    "file_class": "Windows",
+    "magic_hex": "67 49 00 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "QuickTime movie",
+    "extensions": ["mov"],
+    "file_class": "Multimedia",
+    "magic_hex": "6D 6F 6F 76",
+    "offset": 4,
+    "trailer_hex": null
+  },
+  {
+    "description": "TrueType font",
+    "extensions": ["ttf"],
+    "file_class": "Windows",
+    "magic_hex": "74 72 75 65 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Windows memory dump",
+    "extensions": ["dmp"],
+    "file_class": "Windows",
+    "magic_hex": "50 41 47 45 44 55",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "PKZIP archive",
+    "extensions": ["zip"],
+    "file_class": "Compressed archive",
+    "magic_hex": "50 4B 03 04",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "OpenDocument formats",
+    "extensions": ["odt", "odp", "ott"],
+    "file_class": "Word processing suite",
+    "magic_hex": "50 4B 03 04",
+    "offset": 0,
+    "trailer_hex": null
+  },
+    {
+    "description": "Sietronics CPI XRD document",
+    "extensions": ["cpi"],
+    "file_class": "Miscellaneous",
+    "magic_hex": "53 49 45 54 52 4F 4E 49",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "StorageCraft ShadowProtect backup file",
+    "extensions": ["spf"],
+    "file_class": "Backup",
+    "magic_hex": "53 50 46 49 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "MultiBit Bitcoin blockchain file",
+    "extensions": ["spvb"],
+    "file_class": "e-money",
+    "magic_hex": "53 50 56 42",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "SQLite database file",
+    "extensions": ["db"],
+    "file_class": "Database",
+    "magic_hex": "53 51 4C 69 74 65 20 66 6F 72 6D 61 74 20 33 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "QBASIC SZDD compressed file",
+    "extensions": [],
+    "file_class": "Compressed archive",
+    "magic_hex": "53 5A 20 88 F0 27 33 D1",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Wii / GameCube video file",
+    "extensions": ["thp"],
+    "file_class": "Multimedia",
+    "magic_hex": "54 48 50 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "GNU Info Reader file",
+    "extensions": ["info"],
+    "file_class": "Programming",
+    "magic_hex": "54 68 69 73 20 69 73 20",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "RIFF Windows Audio (WAV)",
+    "extensions": ["wav"],
+    "file_class": "Multimedia",
+    "magic_hex": "57 41 56 45 66 6D 74 20",
+    "offset": 8,
+    "trailer_hex": null
+  },
+  {
+    "description": "XPCOM library",
+    "extensions": ["xpt"],
+    "file_class": "Programming",
+    "magic_hex": "58 50 43 4F 4D 0A 54 79",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Macromedia Shockwave Flash",
+    "extensions": ["swf"],
+    "file_class": "Multimedia",
+    "magic_hex": "5A 57 53",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "UUencoded file",
+    "extensions": [],
+    "file_class": "Compressed archive",
+    "magic_hex": "62 65 67 69 6E",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Binary property list (plist)",
+    "extensions": [],
+    "file_class": "System",
+    "magic_hex": "62 70 6C 69 73 74",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Free Lossless Audio Codec file",
+    "extensions": ["flac"],
+    "file_class": "Multimedia",
+    "magic_hex": "66 4C 61 43 00 00 00 22",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "QuickTime movie",
+    "extensions": ["mov"],
+    "file_class": "Multimedia",
+    "magic_hex": "66 74 79 70 71 74 20 20",
+    "offset": 4,
+    "trailer_hex": null
+  },
+  {
+    "description": "PalmOS SuperMemo database",
+    "extensions": ["pdb"],
+    "file_class": "Mobile",
+    "magic_hex": "73 6D 5F",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "PNG image",
+    "extensions": ["png"],
+    "file_class": "Picture",
+    "magic_hex": "89 50 4E 47 0D 0A 1A 0A",
+    "offset": 0,
+    "trailer_hex": "49 45 4E 44 AE 42 60 82"
+  },
+  {
+    "description": "High Efficiency Image Container",
+    "extensions": ["heic"],
+    "file_class": "Multimedia",
+    "magic_hex": "00 00 00 20 66 74 79 70 68 65 69 63",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "MPEG video file",
+    "extensions": ["mpg"],
+    "file_class": "Multimedia",
+    "magic_hex": "00 00 01 B3",
+    "offset": 0,
+    "trailer_hex": "00 00 01 B7"
+  },
+  {
+    "description": "Microsoft Access database (ACCDB)",
+    "extensions": ["accdb"],
+    "file_class": "Database",
+    "magic_hex": "00 01 00 00 53 74 61 6E 64 61 72 64 20 41 43 45 20 44 42",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Microsoft Access database (MDB)",
+    "extensions": ["mdb"],
+    "file_class": "Database",
+    "magic_hex": "00 01 00 00 53 74 61 6E 64 61 72 64 20 4A 65 74 20 44 42",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "GZIP compressed archive",
+    "extensions": ["gz"],
+    "file_class": "Compressed archive",
+    "magic_hex": "1F 8B 08",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Unix ar archive / COFF library",
+    "extensions": ["lib"],
+    "file_class": "Compressed archive",
+    "magic_hex": "21 3C 61 72 63 68 3E 0A",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "VBScript encoded script",
+    "extensions": ["vbe"],
+    "file_class": "Programming",
+    "magic_hex": "23 40 7E 5E",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Windows Media Audio / Video",
+    "extensions": ["asf", "wma", "wmv"],
+    "file_class": "Multimedia",
+    "magic_hex": "30 26 B2 75 8E 66 CF 11",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Bitmap image",
+    "extensions": ["bmp", "dib"],
+    "file_class": "Picture",
+    "magic_hex": "42 4D",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "NTFS Master File Table (FILE)",
+    "extensions": [],
+    "file_class": "Windows",
+    "magic_hex": "46 49 4C 45",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "TIFF image",
+    "extensions": ["tif", "tiff"],
+    "file_class": "Picture",
+    "magic_hex": "49 49 2A 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "WebM video file",
+    "extensions": ["webm"],
+    "file_class": "Multimedia",
+    "magic_hex": "1A 45 DF A3",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Better Portable Graphics image",
+    "extensions": ["bpg"],
+    "file_class": "Multimedia",
+    "magic_hex": "42 50 47 FB",
+    "offset": 0,
+    "trailer_hex": null
+  },
+    {
+    "description": "Puffer ASCII encrypted archive",
+    "extensions": ["apuf"],
+    "file_class": "Encryption",
+    "magic_hex": "42 65 67 69 6E 20 50 75 66 66 65 72",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "RagTime document",
+    "extensions": ["rtd"],
+    "file_class": "Word processing suite",
+    "magic_hex": "43 23 2B 44 A4 43 4D A5",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Corel Binary Metafile",
+    "extensions": ["clb"],
+    "file_class": "Miscellaneous",
+    "magic_hex": "43 4D 58 31",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Crush compressed archive",
+    "extensions": ["cru"],
+    "file_class": "Compressed archive",
+    "magic_hex": "43 52 55 53 48 20 76",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Google Chrome extension",
+    "extensions": ["crx"],
+    "file_class": "Programming",
+    "magic_hex": "43 72 32 34",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Creative Voice audio file",
+    "extensions": ["voc"],
+    "file_class": "Multimedia",
+    "magic_hex": "43 72 65 61 74 69 76 65 20 56 6F 69 63 65 20 46",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Windows Vista Event Log",
+    "extensions": ["evtx"],
+    "file_class": "Windows",
+    "magic_hex": "45 6C 66 46 69 6C 65 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Generic e-mail",
+    "extensions": ["eml"],
+    "file_class": "Email",
+    "magic_hex": "46 72 6F 6D",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Microsoft Compiled HTML Help",
+    "extensions": ["chi", "chm"],
+    "file_class": "Windows",
+    "magic_hex": "49 54 53 46",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "TIFF image (big endian)",
+    "extensions": ["tif", "tiff"],
+    "file_class": "Picture",
+    "magic_hex": "4D 4D 00 2A",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "VMware BIOS state file",
+    "extensions": ["nvram"],
+    "file_class": "Miscellaneous",
+    "magic_hex": "4D 52 56 4E",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Windows virtual device driver",
+    "extensions": ["vxd", "386"],
+    "file_class": "Windows",
+    "magic_hex": "4D 5A",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Visual BASIC application",
+    "extensions": ["vbx"],
+    "file_class": "Programming",
+    "magic_hex": "4D 5A",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "MS C++ debugging symbols",
+    "extensions": ["pdb"],
+    "file_class": "Programming",
+    "magic_hex": "4D 69 63 72 6F 73 6F 66 74 20 43 2F 43 2B 2B 20",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "OpenType font",
+    "extensions": ["otf"],
+    "file_class": "Word processing suite",
+    "magic_hex": "4F 54 54 4F 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Office Open XML document",
+    "extensions": ["docx", "pptx", "xlsx"],
+    "file_class": "Word processing suite",
+    "magic_hex": "50 4B 03 04",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Java archive",
+    "extensions": ["jar"],
+    "file_class": "Programming",
+    "magic_hex": "50 4B 03 04",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "WinRAR archive",
+    "extensions": ["rar"],
+    "file_class": "Compressed archive",
+    "magic_hex": "52 61 72 21 1A 07 00",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Flexible Image Transport System",
+    "extensions": ["fits"],
+    "file_class": "Multimedia",
+    "magic_hex": "53 49 4D 50 4C 45 20 20 3D",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Unicode extension file",
+    "extensions": ["uce"],
+    "file_class": "Windows",
+    "magic_hex": "55 43 45 58",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Lotus WordPro document",
+    "extensions": ["lwp"],
+    "file_class": "Word processing suite",
+    "magic_hex": "57 6F 72 64 50 72 6F",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Dalvik Android executable",
+    "extensions": ["dex"],
+    "file_class": "Mobile",
+    "magic_hex": "64 65 78 0A",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "MacOS icon file",
+    "extensions": ["icns"],
+    "file_class": "System",
+    "magic_hex": "69 63 6E 73",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "OpenEXR image",
+    "extensions": ["exr"],
+    "file_class": "Picture",
+    "magic_hex": "76 2F 31 01",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Rich Text Format document",
+    "extensions": ["rtf"],
+    "file_class": "Word processing suite",
+    "magic_hex": "7B 5C 72 74 66 31",
+    "offset": 0,
+    "trailer_hex": "5C 70 61 72 20 7D 7D"
+  },
+  {
+    "description": "ELF executable",
+    "extensions": [],
+    "file_class": "Linux-Unix",
+    "magic_hex": "7F 45 4C 46",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "Java bytecode class file",
+    "extensions": ["class"],
+    "file_class": "Programming",
+    "magic_hex": "CA FE BA BE",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "JPEG image",
+    "extensions": ["jpg", "jpeg", "jpe"],
+    "file_class": "Picture",
+    "magic_hex": "FF D8 FF",
+    "offset": 0,
+    "trailer_hex": "FF D9"
+  },
+  {
+    "description": "Mach-O executable (64-bit)",
+    "extensions": [],
+    "file_class": "Programming",
+    "magic_hex": "FE ED FA CF",
+    "offset": 0,
+    "trailer_hex": null
+  },
+  {
+    "description": "XZ compressed archive",
+    "extensions": ["xz"],
+    "file_class": "Compressed archive",
+    "magic_hex": "FD 37 7A 58 5A 00",
+    "offset": 0,
+    "trailer_hex": null
+  }
+  ]
+}
